@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous">
+        <!--CSS MAIN-->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Senda Salud Servicios Sociales</title>
+</head>
+<body>
+    <!--========================================-->
+    <!--ENCABEZADO NAV-->
+    <!--========================================-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary p-3" id="menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./paginas/afiliacion.html">Afiliacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <!--<form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>-->
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!--========================================-->
+    <!--SLIDER-->
+    <!--========================================-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval = "3000">
+          <img src="./img/centromedico.webp" class="d-block w-50" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval = "3000">
+          <img src="./img/especialidades.webp" class="d-block w-50" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval = "3000">
+          <img src="./img/images3.webp" class="d-block w-50" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval = "3000">
+          <img src="./img/images.webp" class="d-block w-50" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--========================================-->
+    <!--Descripcion Breve de la Empresa-->
+    <!--========================================-->
+
+    <section class="w-75 mx-auto text-center pt-3" id="descripcion">
+      <h1 class="p-3 fs-2 border-top border-3">
+        <span class="text-primary">Nuestros Servicios</span>
+    </h1>
+    <p class="p-3 fs-6">
+      <span class="text-primary">Senda Salud Servicios Sociales</span> Desde hace 15 años acompañando al sistema de salud de la mejor 
+      manera posible brindandole a nuestros afiliados servicios ambulatorios de medicos, emergencias medicas, sepelios,
+      descuentos de farmacia y estudios de alta complejidad.
+    </p>
+    </section>
+    
+    <!--========================================-->
+    <!--footer-->
+    <!--========================================-->
+    <footer class="container-fluid">
+    <div class="row w-100 mx-auto footer-row">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-5 icon-wrap">
+        <figure class="mt-4 text-center">
+          <a href = "#">
+              <img src="./img/equipogamma.png" alt="Logo" width="100" height="80">
+          </a>
+        </figure>
+      </div>
+       
+        <div class="col-lg-4 col-md-12 col-sm-12 my-5 icon-wrap justify-content-center">
+            <h2 class="fs-5 mt-4 px-4 pb-1 text-center">SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, aliquid.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, aliquid.</p>
+        </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 my-5 icon-wrap justify-content-center">
+            <h2 class="fs-5 mt-4 px-4 pb-1 text-center">SIGUENOS</h2>
+            <div class="red-social text-centerfs-5 mt-4 px-4 pb-1">
+              <ul class="d-flex justify-content-center footer-list">
+                <li>
+                  <a href="#">
+                    <i class="bi bi-facebook fs-4 p-3"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-instagram fs-4 p-3"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-twitter fs-4 p-3"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-youtube fs-4 p-3"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 justify-content-center footer-end text-center">
+        <small>&copy;2022<b>Senda Salud SRL</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+      <!--------------------------------------------------------------------->
+      <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
