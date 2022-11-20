@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="../css/estilo.css">
         <title>Senda Salud Servicios Sociales</title>
     </head>
-<body class="bg-secondary">
+<body class="bg-secondary body_form">
     <!--========================================-->
     <!--ENCABEZADO NAV-->
     <!--========================================-->
@@ -43,18 +43,45 @@
                     <a class="nav-link" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
-                <!--<form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>-->
-              </div>
+                </div>
             </div>
         </nav>
     </header>
     <!---------------------------------------------------------------------------->
     <!----------------------FORMULARIO CONTACTO----------------------------------->
     <!---------------------------------------------------------------------------->
-    <section class="d-flex justify-content-center p-5">
+    
+    <form class="form justify-content-center mt-2 mb-2">
+        <h2 class="form_title">Formulario de Contacto</h2>
+        <div class="form_container">
+          <div class="form_group">
+            <input type="text" class="form_input" id="nombre" placeholder=" ">
+            <label for="nombre" class="form_label">Nombre</label>
+            <span class="form_line"></span>
+          </div>
+          <div class="form_group">
+            <input type="text" class="form_input" id="apellido" placeholder=" ">
+            <label for="apellido" class="form_label">Apellido</label>
+            <span class="form_line"></span>
+          </div>
+          <div class="form_group">
+            <input type="text" class="form_input" id="email" placeholder=" ">
+            <label for="email" class="form_label">E-mail</label>
+            <span class="form_line"></span>
+          </div>
+          <div class="form_group">
+            <input type="radio" id="masculino" value="masculino"> Masculino
+            <input type="radio" id="femenino" value="femenino"> Femenino
+            <label for="sexo" class="form_label">Sexo</label>
+          </div>
+          <div class="form_group">
+            <textarea name="mensaje" id="mensaje" class="form_input" placeholder=" "></textarea>
+            <label for="mensaje" class="form_label">Mensaje</label>
+          </div>
+          <input type="submit" class="form_submit" value="Enviar">
+        </div>
+    </form>
+    <!--<section class="d-flex justify-content-center p-5">
       <div class="card col-lg-4 col-md-12 col-sm-12 p-3">
         <div class="mb-3">
           <h4>Contacto</h4>
@@ -84,7 +111,7 @@
           <button class="btn btn-primary text-center">Enviar</button>
         </div>
       </div>
-    </section>
+    </section>-->
     <!--========================================-->
     <!--footer-->
     <!--========================================-->
